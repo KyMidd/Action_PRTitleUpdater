@@ -1,6 +1,6 @@
 # This Action checks Pull Request Titles, and updates them if they don't start with a Jira-ticket-formatted string
-
 name: First Commit Jira to GitHub PR Title Updater
+description: I make sure GitHub PR Titles start with a Jira ticket (and find it in first commit if I need to). Else, exit 1
 
 # Permit being called from other Actions
 on: workflow_call
